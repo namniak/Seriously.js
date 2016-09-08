@@ -1,6 +1,6 @@
 {
   "name": "seriously",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Seriously.js is a real-time, node-based video compositor for the web. Inspired by professional software such as After Effects and Nuke, Seriously.js renders high-quality video effects, but allows them to be dynamic and interactive.",
   "main": "seriously.js",
   "directories": {
