@@ -1445,8 +1445,11 @@
 				for (i = 0; i < sources.length; i++) {
 					node = sources[i];
 
-					if (node.dirty ||
-							node.checkDirty && node.checkDirty()) {
+					if (
+						node.dirty ||
+						node.seriously.alwaysDirty  ||
+						node.checkDirty && node.checkDirty()
+					) {
 						node.dirty = false;
 						node.setDirty();
 					}
